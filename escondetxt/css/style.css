@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@600&family=Poppins&display=swap');
+
+body{
+    background:rgb(71, 71, 71)
+}
+
+h1 {
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+    font-size: 250%;
+    color: white;
+}
+
+
+#conteudo{
+    width: 400px;
+    background: white;
+    padding: 20px;
+    padding-top: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: #444;
+    margin: 0 auto;
+    max-height: 270px;
+    overflow: hidden;
+    border-radius: 25px;
+    
+    -webkit-transition: max-height 0.7s;
+    -moz-transition: max-height 0.7s;
+    transition: max-height 0.7s;
+}
+
+#conteudo.open{
+   max-height: 1000px;
+
+   -webkit-transition: max-height 0.7s;
+   -moz-transition: max-height 0.7s;
+    transition: max-height 0.7s;
+}
+
+#mostre_mais {
+background: rgb(0, 0, 0);
+color: rgb(255, 255, 255);
+font-family: 'Outfit', sans-serif;
+display:block;
+width: 140px;
+font-size: 24px;
+text-transform: uppercase;
+padding: 10px;
+text-align: center;
+margin: 20px auto;
+cursor: pointer;
+}
